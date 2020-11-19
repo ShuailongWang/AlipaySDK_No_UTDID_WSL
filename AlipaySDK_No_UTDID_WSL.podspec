@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/ShuailongWang/AlipaySDK_No_UTDID_WSL'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'WSL' => 'WSL' }
-  spec.source           = { :git => 'https://github.com/ShuailongWang/AlipaySDK_No_UTDID_WSL.git', :tag => s.version.to_s }
+  spec.source           = { :git => 'https://github.com/ShuailongWang/AlipaySDK_No_UTDID_WSL.git', :tag => spec.version.to_s }
   
   spec.ios.deployment_target = '9.0'
   
